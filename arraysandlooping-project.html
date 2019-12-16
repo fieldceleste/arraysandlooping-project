@@ -28,28 +28,27 @@
       <div class="col-md-6">
         <h2>Let's Play!<img src="img/arrow.jpg" alt="picture of arrow"></h2>
         <h3>Rules:</h3>
-        <p>
           Ping Pong will count up to your number from 1 with the following exceptions:
           <ol>
             <li>Numbers divisible by 3 become <span class="ping">ping</span></li>
             <li>Numbers divisible by 5 become <span class="pong">pong</span></li>
             <li>Numbers divisible by 15 become <span class="pingpong">pingpong</span></li>
           </ol>
-        </p>
-        <form>
+        <form class="pongform">
+          <div>
         <strong><u><span class="enter">Enter your number here:</span></u></strong>
-          <input type="number" name="input-number" id="input-number">
-          <input type="submit" id="input" value="Play!">
-          <br>
-          <br>
+          <input type="number" min="1" id="input-number" placeholder="Positive number only!">
+          <button class="btn btn-success" type="submit">Let's Play!</button>
+          <button id="reload" class="btn btn-danger" type="click">Reset</button>
+       
         </form>
-        <br>
-        <br>
         <div class="results">
-          <ul id="list"></ul>
+          <ul id="list">
+            
+          </ul>
+         </div>
         </div>
-
-        </div>
+       </div>
       </div>
     </div>
   </body>

@@ -28,7 +28,7 @@ h2, h3, h4, h5, h6 {
 
 form {
   background:  rgba(69, 176, 226, 0.7);
-  height:500px;
+  height:1000px;
   width:600px;
 }
 .enter {
@@ -36,9 +36,8 @@ form {
 }
 img {
   transform: rotateY(360deg);
-  display: inline;
-  width:100px;
-  height:100px;
+  width:70px;
+  height:70px;
   margin-top: 40px;
   
 }
