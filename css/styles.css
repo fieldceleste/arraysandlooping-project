@@ -14,7 +14,6 @@ body {
 }
 .col-md-6 {
   padding:60px;
-
 }
 h1  {
   font-size: 50px;
@@ -25,11 +24,10 @@ h1  {
 h2, h3, h4, h5, h6 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
 form {
-  background:  rgba(69, 176, 226, 0.7);
-  height:1000px;
+  background:  rgba(69, 176, 226, 0.8);
   width:600px;
+  grid-auto-rows: minmax(400px, auto);
 }
 .enter {
   background: rgba(191, 236, 29, 0.9);
@@ -39,7 +37,6 @@ img {
   width:70px;
   height:70px;
   margin-top: 40px;
-  
 }
 .ping {
   background:yellow;
