@@ -1,6 +1,6 @@
 # _Arrays and Looping Project_
 
-#### _This is an Epicodus independent Project for Arrays and Looping. This a application that takes a number starting at one, from a user and returns a range of numbers that the user selects.There are a few exceptions with:_
+#### _This is an Epicodus Independent Project for Arrays and Looping. This a application that takes a number starting at one, from a user and returns a range of numbers that the user selects.There are a few exceptions with:_
 * _Numbers divisible by 3 are replaced with "ping"_
 * _Numbers divisible by 5 are replaced with "pong"_
 * _Numbers divisible by 15 are replaced with "ping-pong"_
